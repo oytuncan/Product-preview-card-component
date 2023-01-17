@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+body{
+    background-color: hsl(30, 38%, 92%);
+    height: 1000px;
+   
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+h1{
+    color: hsl(212, 21%, 14%);
+    font-family: 'Fraunces', serif;
+    font-size: 2rem;
+    text-align: left;
+    font-weight: 2000;
+
+}
+p{
+    color: hsl(228, 12%, 48%);
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    font-size: 0.9rem;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+    font-size: 0.8rem;
+    font-weight: 200;
+    letter-spacing: 4px;
+    
+
+}
+.attribution { font-size: 11px; text-align: center; background-color: aqua;}
+.attribution a { color: hsl(228, 45%, 44%);background-color:pink }
+.container{
+    background-color: rgb(255, 255, 255);
+    width: 600px;
+    height: 450px;
+    border-radius: 10px;
+    margin: auto auto;
+    
+
+    display: flex;
+    
+    justify-content: center;
+    align-content: center;
+}
+.img{
+    width: 300px;
+    border-radius: 10px 0 0 10px;
+}
+.btn{
+    width: 235px;
+    height: 50px;
+    background-color: hsl(158, 36%, 37%);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    
+    
+}
+.btn:hover{
+    background-color: hsl(158, 49%, 54%);
+    cursor: pointer;
+
+}
+.btn svg{
+    padding-right: 5px;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    margin: 0 0 0 30px;
+    padding: 20px 20px 20px 0;
+}
+.pricetags{
+    display: flex;
+    gap: 1.5rem;
+}
+.pricetag1{
+    color: hsl(158, 36%, 37%);
+    font-size: 2.2rem;
+    font-weight: bold;
+    font-family: 'Fraunces', serif;
+    display: inline;
+}
+.pricetag2{
+    color: hsl(228, 12%, 48%);
+    text-decoration: line-through;
+    margin-top: 15px;
+    font-size: .9rem;
+}
+@media only screen and(max-width: 628px){
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+}
